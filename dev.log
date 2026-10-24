@@ -1,0 +1,158 @@
+
+> hotarc@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.28
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.2:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 22.6s
+ ○ Compiling /privacy ...
+ ✓ Compiled /privacy in 14s (629 modules)
+ GET /privacy 200 in 15179ms
+ GET /contact?topic=sample 200 in 15183ms
+ GET /shop 200 in 15196ms
+ GET / 200 in 15208ms
+ GET / 200 in 692ms
+ GET /shop 200 in 174ms
+ GET /contact?topic=sample 200 in 111ms
+ ⨯ ./src/app/globals.css
+Error: ENOENT: no such file or directory, open 'c:\Users\USER\Documents\projects\hotarc\src\app\globals.css'
+
+Import trace for requested module:
+./src/app/globals.css
+./src/app/layout.tsx
+ ⨯ ./src/app/globals.css
+Module not found: Can't resolve 'c:\Users\USER\Documents\projects\hotarc\src\app\globals.css'
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /_error ...
+<w> [webpack.cache.PackFileCacheStrategy] Skipped not serializable cache item 'Compilation/modules|javascript/auto|c:\Users\USER\Documents\projects\hotarc\node_modules\next\dist\build\webpack\loaders\next-flight-css-loader.js??ruleSet[1].rules[14].oneOf[10].use[0]!c:\Users\USER\Documents\projects\hotarc\node_modules\next\dist\compiled\mini-css-extract-plugin\loader.js??ruleSet[1].rules[14].oneOf[10].use[1]!c:\Users\USER\Documents\projects\hotarc\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[14].oneOf[10].use[2]!c:\Users\USER\Documents\projects\hotarc\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[14].oneOf[10].use[3]!c:\Users\USER\Documents\projects\hotarc\src\app\globals.css|app-pages-browser': No serializer registered for ModuleNotFoundError
+<w> while serializing webpack/lib/cache/PackFileCacheStrategy.PackContentItems -> webpack/lib/NormalModule -> webpack/lib/ModuleBuildError -> ModuleNotFoundError
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ GET /contact?topic=sample 500 in 30213ms
+ GET /contact?topic=sample 500 in 1591ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/layout.tsx:7:1
+Module not found: Can't resolve './globals.css'
+   5 | import { site, sampleHref } from "@/lib/site";
+   6 | import { Cormorant_Garamond, Inter } from "next/font/google";
+>  7 | import "./globals.css";
+     | ^
+   8 |
+   9 | const display = Cormorant_Garamond({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
+  10 | const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
+
+https://nextjs.org/docs/messages/module-not-found
+ GET /contact?topic=sample 500 in 1308ms
+ ✓ Compiled /_error in 2.4s (1012 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /contact?topic=sample 200 in 1133ms
+ ✓ Compiled in 1039ms (990 modules)
+ GET /contact?topic=sample 200 in 1383ms
+ GET /contact?topic=sample 200 in 104ms
+ GET /contact?topic=sample 200 in 590ms
+ ✓ Compiled in 1097ms (990 modules)
+ GET /contact?topic=sample 200 in 368ms
+ ✓ Compiled in 341ms (598 modules)
+ GET /contact?topic=sample 200 in 384ms
+ ✓ Compiled in 657ms (598 modules)
+ GET /contact?topic=sample 200 in 342ms
+ ✓ Compiled in 348ms (598 modules)
+ GET /contact?topic=sample 200 in 257ms
+ ✓ Compiled in 457ms (598 modules)
+ GET /contact?topic=sample 200 in 245ms
+ ○ Compiling /privacy ...
+ ✓ Compiled /privacy in 870ms (898 modules)
+ GET /contact 200 in 1997ms
+ GET /privacy 200 in 2011ms
+ GET /contact?topic=sample 200 in 356ms
+ GET /shop 200 in 2020ms
+ GET / 200 in 2032ms
